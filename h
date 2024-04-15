@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nxhc/hahahaha/main/ha"))()
-
 -- // Variables
 getgenv().VNMLoaded = true
 local VNMLogo, GetTime = game:HttpGet("https://i.ibb.co/b1d2vRy/vnm-ware.png"), os.clock()
