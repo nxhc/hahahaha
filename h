@@ -1,6 +1,6 @@
 -- // Variables
 getgenv().VNMLoaded = true
-local VNMLogo, GetTime = game:HttpGet("https://i.ibb.co/LCxvx03/vnm.jpg"), os.clock()
+local VNMLogo, GetTime = game:HttpGet("https://i.ibb.co/b1d2vRy/vnm-ware.png"), os.clock()
 
 local NoclipMacro, Macro, PanicMode, TriggerBot, Desync, FreezePos, FrameSkip, FakeSpike = false, false, false, false, false, false, false, false
 local ClosestPointCF, ToolConnection, SilentTarget, AimTarget, ForceLock, keybindTime, LastStutter = nil, nil, nil, nil, nil, 0, tick()
@@ -51,7 +51,7 @@ if VNM.Options.Intro then
     Image.Position = UDim2.new(0.405, 0, 0.405, 0)
     Image.Size = UDim2.new(0.17, 0, 0.27, 0)
     Image.ImageTransparency = 1
-    Image.Image = "rbxassetid://12714203201"
+    Image.Image = "rbxassetid://17159766839"
     
     local Create = Tween:Create(Blur, TweenInfo.new(1.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {Size = 50})
     Create:Play()
